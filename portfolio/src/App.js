@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar/Navbar";
 import Skills from "./components/Skills/Skills";
 import Intro from "./components/Intro/Intro";
-import {Link} from 'react-scroll';
 import Works from "./components/Works/Works";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Intro />
       <Skills />
       <Works />
+      <Contact />
     </div>
   );
 }

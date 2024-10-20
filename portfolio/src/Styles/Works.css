@@ -1,6 +1,5 @@
 #works{
-    /* overflow: hidden; */
-    height: 100vh;
+    overflow: hidden;
     width: 100vw;
     max-width: 75rem;
     margin: 2rem auto;

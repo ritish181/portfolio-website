@@ -1,0 +1,37 @@
+#contactPage{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientHeading{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientImgs{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.clientImg{
+    margin: 0.5rem;
+    object-fit: cover;
+    width: 13rem;
+}
