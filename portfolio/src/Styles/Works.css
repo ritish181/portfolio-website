@@ -1,0 +1,62 @@
+#works{
+    /* overflow: hidden; */
+    height: 100vh;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 2rem auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.workContent{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.workTitle{
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.workDescription{
+    margin-bottom: 2rem;
+}
+
+.workCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items:center ;
+    justify-content: center;
+    width: 100vw;
+    max-width: 70rem;
+}
+
+.workCard{
+    object-fit: cover;
+    height: 20rem;
+    margin: 1rem;
+}
+
+.workCard:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease;
+}
+
+.workBtn{
+    background: white;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+}
+
+.workBtn:hover{
+    background: rgb(224, 221, 221);
+}
