@@ -55,3 +55,30 @@
     border-bottom: 3px solid yellow;
     padding-bottom: 0.5rem;
 }
+
+.mobMenu{
+    /* display: none; */
+    object-fit: cover;
+    height: 1.8rem;
+}
+
+.navMenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: #404040;
+    border-radius: 1rem;
+}
+
+.listItem{
+    color: white;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: #303030;
+}
